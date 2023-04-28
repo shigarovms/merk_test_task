@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-from models.base_demoqa_page import BaseDemoqaPage
+from models.page_objects.base_demoqa_page import BaseDemoqaPage
 from webdriver.wait_utils import WaitUtils
 
 

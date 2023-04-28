@@ -1,9 +1,8 @@
-from time import sleep
 from typing import List
 
 from selenium.webdriver.common.by import By
 
-from models.base_demoqa_page import BaseDemoqaPage
+from models.page_objects.base_demoqa_page import BaseDemoqaPage
 from models.regisration_form import RegistrationForm
 from models.user import User
 from webdriver.wait_utils import WaitUtils

@@ -1,7 +1,7 @@
 import allure
 
-from models.automation_practice_page import AutomationPracticePage
-from test_base_web import TestBaseWeb
+from models.page_objects.automation_practice_page import AutomationPracticePage
+from tests.test_base_web import TestBaseWeb
 
 
 @allure.title("Test of the automation practice form on demoqa.com")

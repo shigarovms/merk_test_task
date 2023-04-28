@@ -1,8 +1,8 @@
 import allure
 
 from models.user import User
-from models.web_tables_page import WebTablesPage
-from test_base_web import TestBaseWeb
+from models.page_objects.web_tables_page import WebTablesPage
+from tests.test_base_web import TestBaseWeb
 
 
 @allure.title("Test of the functionality of web tables on demoqa.com")
