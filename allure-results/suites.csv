@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 28 04:49:06 GET 2023","Fri Apr 28 04:49:08 GET 2023","1126","","test_1_ smoke_practice_form","TestSmokeDemoqa","","","test_all_key_elements_present_on_automation_practice_page","Check the presence of all key elements on the 'automation practice' page"
+"passed","Fri Apr 28 04:49:27 GET 2023","Fri Apr 28 04:49:27 GET 2023","162","","test_2_functional_web_tables","TestFuncWebTables","","","test_of_deleting_a_record","Test of deleting a record from the table"
+"passed","Fri Apr 28 04:49:14 GET 2023","Fri Apr 28 04:49:15 GET 2023","1159","","test_2_functional_web_tables","TestFuncWebTables","","","test_of_a_new_record_creation","Test if new record can be added to the table"
+"passed","Fri Apr 28 04:49:20 GET 2023","Fri Apr 28 04:49:22 GET 2023","1190","","test_2_functional_web_tables","TestFuncWebTables","","","test_of_editing_a_record","Test of editing a record in the table"
