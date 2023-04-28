@@ -33,10 +33,6 @@ class AutomationPracticePage(BaseDemoqaPage):
         self.__select_city_dropdown_locator = (By.XPATH, "//div[contains(text(),'Select City')]")
         self.__submit_button_locator = (By.ID, "submit")
 
-    # def is_visible(self) -> bool:
-    #     header = WaitUtils.wait_and_find_an_element(self.__unique_element_locator)
-    #     return header.is_displayed() and header.text == self.__header_text
-
     def first_name_field_is_visible(self) -> bool:
         return WaitUtils.wait_and_find_an_element(self.__first_name_locator).is_displayed()
 
